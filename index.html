@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>: : Messenger</title>
+	<!-- Css links  -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="msg_box">
+	<div class="box-footer m-2">
+		<div class="input-group">
+		  	<input type="text" class="form-control msg-input" id='inputbox' placeholder='Enter your search string'>
+			<div class="input-group-append">
+			    <button class="btn btn-info submit" type="button" id ='sendbutton'>Send</button>
+			</div>
+		</div>
+	</div>
+	<div class="result" style="margin-right:100px">
+		<table style="width:100%" class="resultData">
+		</table>
+	</div>
+</div>
+
+
+	<!-- js links -->
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#nameModal').modal('show');
+    });
+</script>
+</body>
+</html>
